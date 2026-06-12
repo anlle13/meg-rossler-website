@@ -176,7 +176,7 @@ useEffect(() => {
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
-            <span className="font-bold text-blue-800 text-lg tracking-tight">TWSIAM 14th Annual Meeting</span>
+            <span className="font-bold text-blue-800 text-lg tracking-tight">14th TWSIAM</span>
             <div className="hidden md:flex space-x-6 text-sm font-medium text-slate-500">
               <a href="#abstract" className="hover:text-blue-600 transition-colors">Abstract</a>
               <a href="#data" className="hover:text-blue-600 transition-colors">Data</a>
@@ -192,7 +192,7 @@ useEffect(() => {
       <header className="bg-gradient-to-b from-blue-900 to-slate-800 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="inline-block px-4 py-1.5 rounded-full bg-blue-800/50 border border-blue-400/30 text-blue-200 text-sm font-semibold mb-4">
-            Undergraduate Research Presentation
+            大學生組
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
             Phase-Level Fitting of MEG Finger-Lifting Signals <br className="hidden md:block" />
@@ -298,6 +298,13 @@ useEffect(() => {
                 J(θ) = λ<sub>y</sub>² ∫ [ y<sub>data</sub> - ỹ<sub>model</sub> ]² dt <br/>
                 <span className="pl-8">+ λ<sub>f</sub>² [ f<sub>dom</sub> - f<sub>target</sub> ]² </span><br/>
                 <span className="pl-8">+ λ<sub>φ</sub>² ∫ [ W(φ<sub>data</sub> - φ<sub>model</sub>) ]² dt</span>
+                   <p className="font-serif border-t border-slate-700 pt-2">
+                  W(α) = α − 2π⌊(α + π) / 2π⌋
+                  </p>
+
+    <p className="italic">
+      is the principal phase-value mapping.
+    </p> 
               </div>
             </div>
           </div>
